@@ -7,7 +7,6 @@ categories:
 tags:
   - Jekyll
   - firstpost
-author: sam
 ---
 
 Hello, my name is Samyak S Sarnayak. I'm a student of PES University, Bengaluru, India. This is the first post on my own website!.
