@@ -1,4 +1,5 @@
 -   title: "CapStyle"
+    id: "captyle"
     subtitle: "Stylized Image Captioning using Deep Learning Models"
     location: "CDSAML, PES University"
     date: "Jun. 2019 - Till date"
@@ -8,6 +9,7 @@
         - "Tools used: Python, Keras, Tensorflow GPU, CUDA, Flickr8K dataset."
 
 -   title: "BlockChat"
+    id: "blockchat"
     subtitle: "A Blockchain based messaging application"
     location: "PES University"
     date: "Sep. 2019 - Nov. 2019"
@@ -19,6 +21,7 @@
         - "Tools used: Python3, Flask, Heroku, Cryptography python module, Firebase, HTML, CSS, Bootstrap, JavaScript, JQuery, AJAX, PHP, 000webhost."
 
 -   title: "Time Series Analysis of Amazon.in data"
+    id: "amazon-analysis"
     subtitle: "A data science project about collecting and analysing Amazon data"
     location: "PES University"
     date: "Sep. 2019 - Nov. 2019"
@@ -29,6 +32,7 @@
         - "Performed a few hypothesis tests and checked for correlation using different plots and linear regression."
 
 -   title: "PulmOss"
+    id: "pulmoss"
     subtitle: "Abnormality detection from diagnostic images using deep learning"
     location: "Hashcode, PES University"
     date: "Oct. 2019"
@@ -37,6 +41,7 @@
         - "The model also accepted numerical and categorical inputs such as patient age and gender."
 
 -   title: "Complete Server Setup"
+    id: "studython"
     subtitle: "Integrating various components of a web server"
     location: "Studython, PES University"
     date: "Oct. 2019"
@@ -45,6 +50,7 @@
         - "Different servers were configured and integrated to create a multi-server architecture."
 
 -   title: "Recipe Viewer"
+    id: "recipe-viewer"
     subtitle: "A web app to aid in cooking"
     location: "DSC, PES University"
     date: "Jun. 2019 - Till date"
@@ -55,6 +61,7 @@
         - "<a href=http://dsc-flask-api-heroku.herokuapp.com/>Link to web app</a>"
 
 -   title: "Sentiment Analysis of Tweets"
+    id: "senti-analysis-tweets"
     subtitle: "In C"
     location: "PES University"
     date: "Jan. 2019 - Apr. 2019"
@@ -64,6 +71,7 @@
         - "Tools used: C programming language, libcurl, libssl, Twitter API, SentiWords dataset."
 
 -   title: "Web Browser History Analyser"
+    id: "history-analyser"
     subtitle: "A Python program to extract and analyse browser history"
     location: "PES University"
     date: "Sep. 2018 - Nov. 2018"

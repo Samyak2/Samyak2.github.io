@@ -2,6 +2,9 @@
 layout: single
 permalink: /projects/
 title: "Projects"
+toc: true
+toc_label: "Projects list"
+classes: wide
 ---
 
 <link rel="stylesheet" href={{ "/assets/css/projects_styles.css" | relative_url }}>
@@ -10,7 +13,7 @@ title: "Projects"
     <div class="project-entry">
         <div class="project-header">
             <div class="project-headings">
-                {% if item.githublink %} <a href="{{ item.githublink }}"> {% endif %} <h2>{{ item.title }} {% if item.githublink %} </a> {% endif %} </h2>
+                {% if item.githublink %} <a href="{{ item.githublink }}"> {% endif %} <h2 id="{{ item.id }}"> {{ item.title }} {% if item.githublink %} </a> {% endif %} </h2>
                 <div class="project-subtitle">{{ item.subtitle }}</div>
             </div>
             <div class="project-location-date">

@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Me"
 ---
 
 I am a student of [PES University](https://www.pes.edu/), Bengaluru, India. My areas of interest include Deep Learning, Web development, Cyber Security and Open Source software.
