@@ -1,0 +1,74 @@
+-   title: "CapStyle"
+    subtitle: "Stylized Image Captioning using Deep Learning Models"
+    location: "CDSAML, PES University"
+    date: "Jun. 2019 - Till date"
+    info:
+        - "Created a custom dataset named CapStyle5k derived from Flickr8k."
+        - "Implemented a sequence-to-sequence encoder decoder model with attention."
+        - "Tools used: Python, Keras, Tensorflow GPU, CUDA, Flickr8K dataset."
+
+-   title: "BlockChat"
+    subtitle: "A Blockchain based messaging application"
+    location: "PES University"
+    date: "Sep. 2019 - Nov. 2019"
+    githublink: "https://github.com/Samyak2/blockchat/"
+    info:
+        - "Implemented a Python-based blockchain API with encryption."
+        - "Built a complete web application with HTML, CSS and JavaScript on the front-end and PHP on the backend"
+        - "<a href=https://blockchat-webwarriors.000webhostapp.com/>Web App link</a>"
+        - "Tools used: Python3, Flask, Heroku, Cryptography python module, Firebase, HTML, CSS, Bootstrap, JavaScript, JQuery, AJAX, PHP, 000webhost."
+
+-   title: "Time Series Analysis of Amazon.in data"
+    subtitle: "A data science project about collecting and analysing Amazon data"
+    location: "PES University"
+    date: "Sep. 2019 - Nov. 2019"
+    githublink: "https://github.com/Samyak2/amazon-analysis"
+    info:
+        - "Created a custom web scraper to collect data on a few products periodically. Tools used: Python, Scrapy, PostgreSQL, Heroku."
+        - "Performed data preprocessing - cleaning, normalisation, standardisation and generated several visualisations."
+        - "Performed a few hypothesis tests and checked for correlation using different plots and linear regression."
+
+-   title: "PulmOss"
+    subtitle: "Abnormality detection from diagnostic images using deep learning"
+    location: "Hashcode, PES University"
+    date: "Oct. 2019"
+    info:
+        - "Classification and Detection of Abnormalities in lung and bone X-Ray images."
+        - "The model also accepted numerical and categorical inputs such as patient age and gender."
+
+-   title: "Complete Server Setup"
+    subtitle: "Integrating various components of a web server"
+    location: "Studython, PES University"
+    date: "Oct. 2019"
+    info:
+        - "A basic Web Application made by integrating a web server (Apache), an application server (Django), a database server (MySQL), a loadbalancer (HAProxy) and a firewall (ufw)."
+        - "Different servers were configured and integrated to create a multi-server architecture."
+
+-   title: "Recipe Viewer"
+    subtitle: "A web app to aid in cooking"
+    location: "DSC, PES University"
+    date: "Jun. 2019 - Till date"
+    githublink: "https://github.com/dscpesu/recipe-viewer"
+    info:
+        - "A Heroku web app which extracts text from images of printed recipes or screenshots of a recipe."
+        - "NLP is performed on the text and images, videos, GIFs are displayed based on the ingredients and steps."
+        - "<a href=http://dsc-flask-api-heroku.herokuapp.com/>Link to web app</a>"
+
+-   title: "Sentiment Analysis of Tweets"
+    subtitle: "In C"
+    location: "PES University"
+    date: "Jan. 2019 - Apr. 2019"
+    githublink: "https://github.com/Samyak2/sentiment-analysis-of-tweets-in-c"
+    info:
+        - "A (pure) C program that gets random tweets from the Twitter API and performs basic sentiment analysis on it using a dataset of words and associated sentiment."
+        - "Tools used: C programming language, libcurl, libssl, Twitter API, SentiWords dataset."
+
+-   title: "Web Browser History Analyser"
+    subtitle: "A Python program to extract and analyse browser history"
+    location: "PES University"
+    date: "Sep. 2018 - Nov. 2018"
+    githublink: "https://github.com/Samyak2/history-analyser/"
+    info:
+        - "A python program that extracts the browser history of the user. It then categorizes the websites and displays statistics using graphs."
+        - "Finally it tries to predict the gender of the user (prototype - uses a very small dataset)."
+        - "Tools used: python, pandas, matplotlib, sklearn"

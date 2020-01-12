@@ -1,0 +1,29 @@
+---
+layout: single
+permalink: /projects/
+title: "Projects"
+---
+
+<link rel="stylesheet" href={{ "/assets/css/projects_styles.css" | relative_url }}>
+
+{% for item in site.data.projects %}
+    <div class="project-entry">
+        <div class="project-header">
+            <div class="project-headings">
+                {% if item.githublink %} <a href="{{ item.githublink }}"> {% endif %} <h2>{{ item.title }} {% if item.githublink %} </a> {% endif %} </h2>
+                <div class="project-subtitle">{{ item.subtitle }}</div>
+            </div>
+            <div class="project-location-date">
+                <div class="project-location" style="font-size: small;">{{ item.location }}</div>
+                <div class="project-date" style="font-size: smaller;">{{ item.date }}</div>
+            </div>
+        </div>
+        <div class="project-details">
+            <ul>
+                {% for detail in item.info %}
+                    <li>{{ detail }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endfor %}
