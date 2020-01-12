@@ -6,6 +6,10 @@ categories:
 tags:
   - Jekyll
   - firstpost
+header:
+    overlay_image: /assets/images/yoal-desurmont-first-post-image.jpg
+    caption: "Photo by [**Yoal Desurmont**](https://unsplash.com/@yoal_des) on [Unsplash](https://unsplash.com/)"
+excerpt: "This is the first post on my own website, where I introduce myself and this website."
 ---
 
 Hello, my name is Samyak S Sarnayak. I'm a student of PES University, Bengaluru, India. This is the first post on my own website!.
