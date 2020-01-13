@@ -12,11 +12,19 @@ header:
 
 <link rel="stylesheet" href={{ "/assets/css/projects_styles.css" | relative_url }}>
 
-{% for item in site.data.projects %}
+<table>
+<tbody>
+{% tablerow item in site.data.projects cols:1 %}
     <div class="project-entry">
         <div class="project-header">
             <div class="project-headings">
-                {% if item.githublink %} <a href="{{ item.githublink }}"> {% endif %} <h2 id="{{ item.id }}"> {{ item.title }} {% if item.githublink %} </a> {% endif %} </h2>
+                 <h2 id="{{ item.id }}"> {{ item.title }} </h2>
+                {% if item.githublink or item.websitelink %}
+                <div class="icon-links">
+                    {% if item.githublink %} <a class="github-link" href="{{ item.githublink }}"><span class="fab fa-fw fa-github"></span> GitHub</a>{% endif %}&nbsp;
+                    {% if item.websitelink %} <a class="website-link" href="{{ item.websitelink }}"><span class="fas fa-globe"></span> Website</a>{% endif %}&nbsp;
+                </div>
+                {% endif %}
                 <div class="project-subtitle">{{ item.subtitle }}</div>
             </div>
             <div class="project-location-date">
@@ -32,4 +40,6 @@ header:
             </ul>
         </div>
     </div>
-{% endfor %}
+{% endtablerow %}
+</tbody>
+</table>

@@ -14,10 +14,10 @@
     location: "PES University"
     date: "Sep. 2019 - Nov. 2019"
     githublink: "https://github.com/Samyak2/blockchat/"
+    websitelink: "https://blockchat-webwarriors.000webhostapp.com/"
     info:
         - "Implemented a Python-based blockchain API with encryption."
         - "Built a complete web application with HTML, CSS and JavaScript on the front-end and PHP on the backend"
-        - "<a href=https://blockchat-webwarriors.000webhostapp.com/>Web App link</a>"
         - "Tools used: Python3, Flask, Heroku, Cryptography python module, Firebase, HTML, CSS, Bootstrap, JavaScript, JQuery, AJAX, PHP, 000webhost."
 
 -   title: "Time Series Analysis of Amazon.in data"
@@ -55,10 +55,10 @@
     location: "DSC, PES University"
     date: "Jun. 2019 - Till date"
     githublink: "https://github.com/dscpesu/recipe-viewer"
+    websitelink: "http://dsc-flask-api-heroku.herokuapp.com/"
     info:
         - "A Heroku web app which extracts text from images of printed recipes or screenshots of a recipe."
         - "NLP is performed on the text and images, videos, GIFs are displayed based on the ingredients and steps."
-        - "<a href=http://dsc-flask-api-heroku.herokuapp.com/>Link to web app</a>"
 
 -   title: "Sentiment Analysis of Tweets"
     id: "senti-analysis-tweets"
