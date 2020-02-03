@@ -13,7 +13,7 @@ published: true
 header:
     overlay_image: /assets/images/parking-game-demo.png
     teaser: /assets/images/parking-game-demo.png
-excerpt: "Some of the games I made, using 3D Rad, when I was a kid"
+excerpt: "I made some games when I was kid, using 3D Rad."
 ---
 
 <style type="text/css">
