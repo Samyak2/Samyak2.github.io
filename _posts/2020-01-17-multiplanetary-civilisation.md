@@ -11,6 +11,8 @@ tags:
   - elon musk
 published: true
 twitter_params: "data-theme='dark' data-align='center'"
+header:
+    teaser: /assets/images/spacex-starhopper-starship-nasa-saturn-v-apollo-mk1-height-comparison.png
 ---
 
 Elon Musk recently tweeted about the logistics requirements for a Multiplanetary civilisation.
