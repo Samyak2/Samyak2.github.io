@@ -13,5 +13,5 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'jekyll-seo-tag'
     gem 'jekyll-include-cache'
-    gem "minimal-mistakes-jekyll"
+    gem 'minimal-mistakes-jekyll'
   end
