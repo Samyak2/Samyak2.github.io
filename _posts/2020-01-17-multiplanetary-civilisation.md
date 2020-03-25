@@ -12,7 +12,7 @@ tags:
 published: true
 twitter_params: "data-theme='dark' data-align='center'"
 header:
-    teaser: /assets/images/spacex-starhopper-starship-nasa-saturn-v-apollo-mk1-height-comparison.png
+    teaser: /assets/images/spacex-starhopper-starship-nasa-saturn-v-apollo-mk1-height-comparison.webp
 ---
 
 Elon Musk recently tweeted about the logistics requirements for a Multiplanetary civilisation.
@@ -28,7 +28,7 @@ But of course, technology has come a long way since 1969.
 ## Starship
 
 <figure>
-  <img src="/assets/images/spacex-starhopper-starship-nasa-saturn-v-apollo-mk1-height-comparison.png" />
+  <img src="/assets/images/spacex-starhopper-starship-nasa-saturn-v-apollo-mk1-height-comparison.webp" />
   <figcaption>Size comparison of Starship and Saturn V. <a href="https://www.businessinsider.com/elon-musk-spacex-starship-mars-rocket-spaceship-next-generation-diameter-2019-8/commerce-on-business-insider">Source.</a></figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ Coming back to the point, 100K people per decade would mean an estimated 1 Milli
 
 That's... **0.00013%** of the world population... in 30 years.
 <figure>
- <img src="/assets/images/uh-meme.png" />
+ <img src="/assets/images/uh-meme.webp" />
 </figure>
 That's way too slow. Moreover, looking at the history of Elon (and Tesla)
 with schedules, it could take much longer. Even though 1 million is a large number of people (to be on Mars), it will take centuries

@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About Me"
 header:
-    overlay_image: /assets/images/thumb-image-small.jpg
+    overlay_image: /assets/images/thumb-image-small.webp
     caption: "Photo credit: [Me](https://Samyak2.github.io)"
 ---
 

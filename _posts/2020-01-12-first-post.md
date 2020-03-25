@@ -7,7 +7,7 @@ tags:
   - Jekyll
   - firstpost
 header:
-    overlay_image: /assets/images/yoal-desurmont-first-post-image.jpg
+    overlay_image: /assets/images/yoal-desurmont-first-post-image.webp
     caption: "Photo by [**Yoal Desurmont**](https://unsplash.com/@yoal_des) on [Unsplash](https://unsplash.com/)"
 excerpt: "This is the first post on my own website, where I introduce myself and this website."
 ---

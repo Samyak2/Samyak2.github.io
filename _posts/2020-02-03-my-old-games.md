@@ -11,8 +11,8 @@ tags:
   - old
 published: true
 header:
-    overlay_image: /assets/images/parking-game-demo.png
-    teaser: /assets/images/parking-game-demo.png
+    overlay_image: /assets/images/parking-game-demo.webp
+    teaser: /assets/images/parking-game-demo.webp
 excerpt: "I made some games when I was kid, using 3D Rad."
 ---
 
@@ -46,7 +46,7 @@ included with the engine for a range of games - third person, car racing, airpla
 and many others.
 
 <figure>
-  <img src="/assets/images/3D-Rad-UI.jpg" />
+  <img src="/assets/images/3D-Rad-UI.webp" />
   <figcaption>The 3D Rad UI</figcaption>
 </figure>
 
