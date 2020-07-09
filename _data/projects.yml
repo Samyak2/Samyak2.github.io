@@ -1,12 +1,56 @@
+-   title: "Bengaluru’s Greenest Areas"
+    id: "bengaluru-greenest-ccbd"
+    subtitle: "Computer Vision and multi-threaded MapReduce"
+    location: "PES University"
+    date: "May. 2020"
+    websitelink: "https://ccbd-bangalore.herokuapp.com/"
+    info:
+        - "Collected 5,38,000 satellite images of Bengaluru. Processed all images to find the percent of green using OpenCV."
+        - "Performed reverse geo-coding to map area name to co-ordinates."
+        - "Implemented a custom multi-threaded map-reduce in python."
+
+-   title: "NeuralNetwork.jl"
+    id: "julia-neural-network"
+    subtitle: "A Neural Network Implementation in Julia, with GPU support"
+    date: "Jan. 2020 - May. 2020"
+    githublink: "https://github.com/Samyak2/Neural-Network-Julia"
+    info:
+        - "Implemented a n-layer neural network from scratch using pure Julia."
+        - "Supports binary classification."
+        - "Support for training on GPUs using CuArrays.jl, CUDAnative.jl. Optimised using custom CUDA kernels."
+
+-   title: "SVDNN.jl"
+    id: "svdnn-jl"
+    subtitle: "Accelerating Deep Neural Networks using SVD"
+    location: "PES University"
+    date: "May. 2020"
+    githublink: "https://github.com/Samyak2/SVDNN.jl"
+    info:
+        - "Implemented Truncated SVD in training fully connected DNNs."
+        - "Improved training speeds by 1.2 to 3 times along with increased accuracy."
+        - "Experimented with different values of (new) hyper-parameters (more details in the report)."
+
+-   title: "Park-o-Report"
+    id: "park-o-report"
+    subtitle: "An app to report illegally parked vehicles."
+    location: "HackBout 2020, NMIT, Bengaluru"
+    date: "Mar. 2020"
+    githublink: "https://github.com/Samyak2/HackBout-2020/"
+    info:
+        - "Made a react native app with integrations for Firebase - login, storage, database, cloud messaging, Tensorflow Lite object detection (for detecting vehicles in the picture and its number plate) and API calls to the server."
+        - "Built multiple APIs in Flask for Number plate recognition (OCR) and Geospatial indexing which is used to notify nearby users."
+        - "Tools used: Python, React Native, Flask, Firebase, Tensorflow, TFLite, Geopandas."
+
 -   title: "CapStyle"
     id: "captyle"
     subtitle: "Stylized Image Captioning using Deep Learning Models"
     location: "CDSAML, PES University"
-    date: "Jun. 2019 - Till date"
+    date: "Jun. 2019 - Jun. 2020"
     info:
         - "Created a custom dataset named CapStyle5k derived from Flickr8k."
         - "Implemented a sequence-to-sequence encoder decoder model with attention."
         - "Tools used: Python, Keras, Tensorflow GPU, CUDA, Flickr8K dataset."
+        - "Presented the paper at ICRCSIT-2020 online conference."
 
 -   title: "BlockChat"
     id: "blockchat"
@@ -31,6 +75,17 @@
         - "Performed data preprocessing - cleaning, normalisation, standardisation and generated several visualisations."
         - "Performed a few hypothesis tests and checked for correlation using different plots and linear regression."
 
+-   title: "LightSabre"
+    id: "light-sabre"
+    subtitle: "An Ethereum Dapp for luggage tracking using Blockchain."
+    location: "Sabre Hackathon"
+    date: "Oct. 2019 - Nov. 2019"
+    githublink: "https://github.com/Ojjie/LightSabre"
+    info:
+        - "A web solution for airlines and travellers to conveniently track luggages across different airlines and countries."
+        - "Since the data is stored on a decentralised blockchain, it will free the airlines from the burden of co-ordinating with other airlines and countries."
+        - "Used Solidity, React, Web3.js, Truffle, Web3.py, Flask and some frontend design."
+
 -   title: "PulmOss"
     id: "pulmoss"
     subtitle: "Abnormality detection from diagnostic images using deep learning"
@@ -53,7 +108,7 @@
     id: "recipe-viewer"
     subtitle: "A web app to aid in cooking"
     location: "DSC, PES University"
-    date: "Jun. 2019 - Till date"
+    date: "Jun. 2019 - Aug. 2019"
     githublink: "https://github.com/dscpesu/recipe-viewer"
     websitelink: "http://dsc-flask-api-heroku.herokuapp.com/"
     info:
