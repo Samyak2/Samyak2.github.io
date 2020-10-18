@@ -1,0 +1,108 @@
+---
+layout: default
+---
+
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        margin: 0.5em;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 33%;
+        border-radius: 5px;
+        height: 500px;
+        cursor: pointer;
+        user-select: none;
+    }
+    .card:hover {
+        box-shadow: 0 4px 16px 8px rgba(0,0,0,0.2);
+    }
+    @media ( max-width: 400px) {
+        .card { flex-basis: 100%; }
+    }
+    @media ( max-width: 700px) {
+        .card { flex-basis: 50%; }
+    }
+    .container {
+        padding: 2px 16px;
+    }
+    .index {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .visible {
+        opacity: 1;
+        height: auto;
+    }
+    .invisible {
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .card-front, .card-back {
+        transition: opacity 0.3s ease-in-out;
+        /* position: absolute; */
+    }
+</style>
+
+<div id="main" role="main">
+    <div class="index">
+        {% tablerow item in site.data.projects cols:1 %}
+        <div class="card" id="{{ item.id }}">
+            <div class="container">
+                <div class="card-front visible">
+                    <h4><b>{{ item.title }}</b></h4>
+                    <p>{{ item.subtitle }}</p>
+                </div>
+                <div class="card-back invisible">
+                    {% if item.githublink or item.websitelink %}
+                    <div class="icon-links">
+                        {% if item.githublink %} <a class="github-link" href="{{ item.githublink }}" target="_blank">
+                            <span class="fab fa-fw fa-github"></span> GitHub</a>{% endif %}&nbsp;
+                        {% if item.websitelink %} <a class="website-link" href="{{ item.websitelink }}">
+                            <span class="fas fa-globe"></span> Website</a>{% endif %}&nbsp;
+                    </div>
+                    {% endif %}
+                    <div>
+                        {{ item.date }}
+                    </div>
+                    <ul>
+                        {% for detail in item.info %}
+                            <li>{{ detail }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% endtablerow %}
+    </div>
+</div>
+
+<script type="text/javascript">
+    function toggleCard(card, vis) {
+        let front = card.querySelector(".card-front");
+        let back = card.querySelector(".card-back");
+        if (vis) {
+            front.classList.remove("invisible");
+            back.classList.remove("visible");
+            back.classList.add("invisible");
+            front.classList.add("visible");
+        } else {
+            front.classList.remove("visible");
+            back.classList.remove("invisible");
+            front.classList.add("invisible");
+            back.classList.add("visible");
+        }
+    }
+    document.querySelectorAll(".card").forEach((card) => {
+        let vis = false;
+        card.addEventListener("click", (e) => {
+            toggleCard(card, vis);
+            vis = !vis;
+        });
+    })
+</script>
