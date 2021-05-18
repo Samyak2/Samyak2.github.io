@@ -4,4 +4,4 @@ _site/
 Gemfile.lock
 *.swp
 flex-testing.html
-
+vendor
