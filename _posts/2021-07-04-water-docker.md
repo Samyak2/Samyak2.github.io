@@ -1,5 +1,5 @@
 ---
-title: "Abstractions are like water"
+title: "On water and systems"
 date: 2021-07-04
 categories:
   - blog
